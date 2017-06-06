@@ -1,0 +1,45 @@
+.table-head {
+   padding-bottom: 3rem;
+   border-bottom: 1px solid #fff;
+
+}
+
+.table-head > div {
+   display: table-cell;
+}
+
+.table-body {
+   padding-top: 3rem;
+}
+
+.table-body > div {
+   height: 15rem;
+}
+
+.table-body > div > div {
+   height: inherit;
+}
+
+.table-row {
+   border-bottom: 1px solid #fff;
+}
+
+.add-bread,
+.table-cell-num,
+.table-cell-name,
+.table-cell-price,
+.table-cell-remove-button {
+   padding-top: 6rem;
+   padding-bottom: 6rem;
+}
+
+.table-cell-image {
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.bread-modal {
+   color: #000;
+   float: left;
+   text-align: left;
+}

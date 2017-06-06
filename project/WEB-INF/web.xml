@@ -1,0 +1,103 @@
+<web-app>
+   <servlet>
+      <servlet-name>BreadManage</servlet-name>
+      <jsp-file>/BreadManage.jsp</jsp-file>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>BreadManage</servlet-name>
+      <url-pattern>/breadmanage</url-pattern>
+   </servlet-mapping>
+
+
+   <servlet>
+      <servlet-name>BreadAddDummy</servlet-name>
+      <jsp-file>/BreadAddDummy.jsp</jsp-file>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>BreadAddDummy</servlet-name>
+      <url-pattern>/breadadd</url-pattern>
+   </servlet-mapping>
+
+
+   <servlet>
+      <servlet-name>BreadRemoveDummy</servlet-name>
+      <jsp-file>/BreadRemoveDummy.jsp</jsp-file>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>BreadRemoveDummy</servlet-name>
+      <url-pattern>/breadremove</url-pattern>
+   </servlet-mapping>
+
+   <servlet>
+      <servlet-name>BreadFixDummy</servlet-name>
+      <jsp-file>/BreadFixDummy.jsp</jsp-file>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>BreadFixDummy</servlet-name>
+      <url-pattern>/breadfix</url-pattern>
+   </servlet-mapping>
+
+
+   <servlet>
+      <servlet-name>MyPage</servlet-name>
+      <jsp-file>/MyPage.jsp</jsp-file>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>MyPage</servlet-name>
+      <url-pattern>/mypage</url-pattern>
+   </servlet-mapping>
+
+
+   <servlet>
+      <servlet-name>SignIn</servlet-name>
+      <jsp-file>/SignInDummy.jsp</jsp-file>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>SignIn</servlet-name>
+      <url-pattern>/signin</url-pattern>
+   </servlet-mapping>
+
+
+   <servlet>
+      <servlet-name>BreadRequest</servlet-name>
+      <jsp-file>/BreadRequest.jsp</jsp-file>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>BreadRequest</servlet-name>
+      <url-pattern>/breadrequest</url-pattern>
+   </servlet-mapping>
+
+
+   <servlet>
+      <servlet-name>BreadRequestDummy</servlet-name>
+      <jsp-file>/BreadRequestDummy.jsp</jsp-file>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>BreadRequestDummy</servlet-name>
+      <url-pattern>/brd</url-pattern>
+   </servlet-mapping>
+
+
+   <servlet>
+      <servlet-name>SignUp</servlet-name>
+      <jsp-file>/SignUpDummy.jsp</jsp-file>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>SignUp</servlet-name>
+      <url-pattern>/signup</url-pattern>
+   </servlet-mapping>
+
+
+
+   <servlet>
+      <servlet-name>Modify</servlet-name>
+      <jsp-file>/ModifyDummy.jsp</jsp-file>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>Modify</servlet-name>
+      <url-pattern>/modify</url-pattern>
+   </servlet-mapping>
+
+
+
+</web-app>

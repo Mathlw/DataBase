@@ -1,0 +1,27 @@
+/*
+* Globals
+*/
+/* Links */
+a,
+a:focus,
+a:hover {
+   color: #fff;
+}
+
+/* Custom default button */
+
+.signin-modal,
+.signup-modal {
+   color: #000;
+   float: left;
+   text-align: left;
+}
+
+body {
+   color: #fff;
+   background-color: #333;
+   text-align: center;
+   /*하단 고정된 네비게이션 바를 사용하기 위해선 */
+   /*padding-bottom: 70px;*/
+   /*이 필요합니다..*/
+}
